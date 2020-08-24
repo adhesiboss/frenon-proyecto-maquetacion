@@ -96,3 +96,55 @@ nav > ul > li {
     color: white;
     padding: 15px 0;
 }
+
+/* Hoteles */
+
+#hoteles h2 {
+    font-size: 4rem;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.hoteles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hoteles-container article {
+    width: 300px;
+    margin: 10px;
+    background: white;
+}
+.hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hotel-description {
+    font-size: 1.4rem;
+    color: #3f3e3e;
+    padding: 15px 0;
+}
+
+.hotel-button {
+    background: #f5c6cd;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #EE3F59;
+    font-weight: 700;
+}
+
+.card-body {
+    padding: 30px;
+}
