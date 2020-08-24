@@ -10,20 +10,76 @@ html {
 body{
     background-color: #505050; 
 }
+header{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: flex-start;
+}
+.logo .secciones{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+.secciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: flex-start;
+}
+.hero-section{
+    width: 100%;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+.calltoaction .barra_search{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
 
 section{
     height: 100vh;
 }
 
 #inicio{
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+    background-image: url(/assets/images/photo-1502322386937-39e80cbbb461.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #hoteles{
-    background-color: royalblue;
+    background-color: white
 }
 #vuelos{
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: url(/assets/images/photo-1558285549-827043e3d8a8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #contacto{
-    background-color: gray;
+    /* background-color: gray; */
+    background-image: url(/assets/images/photo-1557180295-76eee20ae8aa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
