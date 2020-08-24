@@ -222,7 +222,7 @@ padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    
     
 }
 .contacto-h2{
@@ -232,15 +232,7 @@ padding: 20px;
     margin-bottom: 30px;
 }
 
-.myForm {
-    display: flex;
-    margin:auto;
-    width: 50%;
-    background-color: white;
-    border-radius: 3px;
-    padding: 1.8em;
 
-  }
   .contact {
    	flex: 1; 
     order: 1;
@@ -268,3 +260,34 @@ padding: 20px;
             background: -o-linear-gradient(#FF5252, #FF4081); /* For Opera 11.1 to 12.0*/    background: -moz-linear-gradient(#FF5252, #FF4081); /* For Firefox 3.6 to 15*/
             background: linear-gradient(#FF5252, #FF4081); /*Standard syntax*/             border:none;        }
   
+            
+
+
+ @media only screen and (min-width: 720px) {
+    .myForm {
+        display: flex;
+        margin:auto;
+        width: 50%;
+        background-color: white;
+        border-radius: 3px;
+        padding: 1.8em;
+      }
+  
+}
+@media only screen and (max-width: 720px) {
+    .myForm {
+        display: flex;
+        margin:auto;
+        width: 100%;
+        background-color: white;
+        border-radius: 3px;
+        padding: 1.8em;
+      }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #contacto{
+        height: 100vh;
+    }
+}
