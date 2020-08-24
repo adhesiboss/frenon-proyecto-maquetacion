@@ -35,8 +35,14 @@ p {
     text-align: justify;
     margin-bottom: 15px;
 }
-.titulo-blanco{
-    color: white!important;
+
+input,
+button {
+    border: none;
+}
+
+.titulo-blanco {
+    color: white !important;
 }
 
 img {
@@ -45,7 +51,7 @@ img {
 
 .titulo {
     color: white;
-    margin-bottom: 10px!important;
+    margin-bottom: 10px !important;
 }
 
 nav {
@@ -89,7 +95,8 @@ nav {
     flex: 0 1 auto;
     align-self: auto;
 }
-.barra_search{
+
+.barra_search {
     text-align: center;
 }
 
@@ -100,8 +107,9 @@ nav {
 section {
     height: 100vh;
 }
-.titulo-sectiones{
-    font-size: 2.5rem!important;
+
+.titulo-sectiones {
+    font-size: 2.5rem !important;
     font-weight: 900;
 }
 
@@ -120,7 +128,7 @@ section {
     width: 100%;
     height: auto;
     padding: 0 20px 30px;
-    
+
 }
 
 .hoteles--card {
@@ -128,6 +136,7 @@ section {
     height: auto;
     text-align: center;
     border: 1px solid #D1D1D1;
+    background-color: white;
 
     display: flex;
     flex-direction: column;
@@ -135,19 +144,28 @@ section {
     justify-content: space-between;
     align-content: flex-start;
     align-items: center;
-    padding: 0 0 30px;
+    padding: 0 0 15px;
     margin-bottom: 50px;
 }
 
 
 .boton-hoteles-card {
     float: left;
+    color: red;
+    background-color: #F6D9D9;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .titulo-hoteles-card {
     margin: 40px 0 30px;
 }
-.cuerpo-card{
+
+.cuerpo-card {
     padding: 0 30px;
 }
 
@@ -159,6 +177,28 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    width: 100%;
+    height: auto;
+    padding: 0 20px 30px;
+}
+.cambio1{
+    border: 0!important;
+    background-color: transparent!important;
+    
+}
+.cambio2 {
+    
+    background-color: white;
+    padding-bottom: 15px;
+    border-radius: 15px!important;
+    -webkit-border-radius: 15px!important;
+    -moz-border-radius: 15px!important;
+    -ms-border-radius: 15px!important;
+    -o-border-radius: 15px!important;
+}
+.cambio-titulo{
+    text-align: left!important;
 }
 
 #contacto {
@@ -168,4 +208,8 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    width: 100%;
+    height: auto;
+    padding: 0 20px 30px;
 }
