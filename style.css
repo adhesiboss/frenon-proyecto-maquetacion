@@ -1,3 +1,4 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
@@ -8,22 +9,262 @@ html {
     font-size: 12px;
 }
 body{
-    background-color: #505050; 
+    background-color: white; 
+   
+}
+/* INICIO */
+
+a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+li{
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
-section{
-    height: 100vh;
-}
 
 #inicio{
-    background-color: greenyellow;
+    background-image: url("https://images.unsplash.com/photo-1502322386937-39e80cbbb461?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
+.header_content{
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.donde_viajar{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+.input_donde{
+    text-align: center;
+}
+input[type="email"] {
+
+    width: 300px;
+    height: 40px;
+    border-radius:3px;
+    background:#FFFFFF;
+    outline:none;
+    border:none;
+   
+    }
+    .button{
+        margin-left:-21.5%;
+        height: 40px;
+        width: 90px;
+        border-radius: 0 3px;
+        background: -webkit-linear-gradient(#FF5252, #FF4081); /* For Safari 5.1 to 6.0*/
+        background: -o-linear-gradient(#FF5252, #FF4081); /* For Opera 11.1 to 12.0*/    background: -moz-linear-gradient(#FF5252, #FF4081); /* For Firefox 3.6 to 15*/
+        background: linear-gradient(#FF5252, #FF4081); /*Standard syntax*/             border:none;
+    }
+    .bold{
+        color: #FFFFFF;
+        font-size:13px;
+      }
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: grey;
+        font-size:14px;
+        padding:10px;
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+       color: grey;
+        font-size:14px;
+        font-weight:bold;
+          padding:10px;
+      
+        }
+      :-ms-input-placeholder { /* IE 10+ */
+       color: grey;
+        font-size:14px;
+        font-weight:bold;
+        padding:10px;
+      
+        }
+      :-moz-placeholder { /* Firefox 18- */
+       color: grey;
+        font-size:14px;
+        font-weight:bold;
+        padding:10px;
+        }
+
+        #fixedbutton {
+            position: fixed;
+            padding: 5px;
+            bottom: 20px;
+            right: 20px; 
+            color: white;
+            border-radius: 5px;
+            background: -webkit-linear-gradient(#FF5252, #FF4081); /* For Safari 5.1 to 6.0*/
+            background: -o-linear-gradient(#FF5252, #FF4081); /* For Opera 11.1 to 12.0*/    background: -moz-linear-gradient(#FF5252, #FF4081); /* For Firefox 3.6 to 15*/
+            background: linear-gradient(#FF5252, #FF4081); /*Standard syntax*/             border:none;        }
+        
+/* HOTELS */
+
 #hoteles{
-    background-color: royalblue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+  
 }
+
+*,
+*::before,
+*::after { 
+  box-sizing: border-box;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 6vh;
+  }
+  .card {
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 20px;
+  }
+  .hotel-h3{
+      text-align:center;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      
+  }
+  .hotel-p{
+      padding-bottom: 10px;
+      text-align: justify;
+      font-size: 1.1rem;
+  }
+  .card .text > button {
+    background: rgba(187, 9, 9, 0.262);
+    border: 0;
+    color: red;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    }
+
+.hotel-h2{
+text-align: center;
+font-size: 3rem;
+padding: 20px;
+}
+
+
+
+/* VUELOS */
+
 #vuelos{
-    background-color: yellow;
+    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url('https://images.unsplash.com/photo-1558285549-827043e3d8a8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
+.cards-vuelos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 6vh;
+  }
+.vuelos-h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
+}
+
+/* CONTACTOS */
+
 #contacto{
-    background-color: gray;
+    background-image: url('https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9');
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
 }
+.contacto-h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.myForm {
+    display: flex;
+    margin:auto;
+    width: 50%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.8em;
+
+  }
+  .contact {
+   	flex: 1; 
+    order: 1;
+   	margin-right: 2em; 
+  }
+  .contact input {
+    width: 100%;
+  }
+  .contact label{
+      font-size: 1.2rem;
+      font-weight: bolder;
+  }
+  .contact input,
+  .contact button {
+      margin-top: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .contact button {
+   background: gray;
+   color: white;
+   border: 0;
+   width: 100%;
+   background: -webkit-linear-gradient(#FF5252, #FF4081); /* For Safari 5.1 to 6.0*/
+            background: -o-linear-gradient(#FF5252, #FF4081); /* For Opera 11.1 to 12.0*/    background: -moz-linear-gradient(#FF5252, #FF4081); /* For Firefox 3.6 to 15*/
+            background: linear-gradient(#FF5252, #FF4081); /*Standard syntax*/             border:none;        }
+  
