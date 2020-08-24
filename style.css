@@ -1,35 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing :border-box;
+    box-sizing: border-box;
 }
+
 html {
     font-family: 'Lato', Tahoma, Sans-Serif;
     font-size: 12px;
 }
-body{
-    background-color: #505050; 
+
+body {
+    background-color: #505050;
 }
-header{
+
+header {
     width: 100%;
     height: auto;
     padding: 20px;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-   text-align: center;
-   padding-top: 15px;
-   font-size: 1.5rem;
-}
-.titulo{
-    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
-nav{
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.titulo-blanco{
+    color: white!important;
+}
+
+img {
+    width: 100%;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 10px!important;
+}
+
+nav {
     color: white;
     display: flex;
     flex-direction: row;
@@ -38,12 +57,14 @@ nav{
     align-content: space-around;
     align-items: flex-start;
 }
-.logo .secciones{
+
+.logo .secciones {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
 }
-.secciones{
+
+.secciones {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -51,7 +72,8 @@ nav{
     align-content: space-around;
     align-items: flex-start;
 }
-.hero-section{
+
+.hero-section {
     width: 100%;
     height: 100vw;
     display: flex;
@@ -61,20 +83,30 @@ nav{
     align-content: flex-start;
     align-items: center;
 }
-.calltoaction .barra_search{
+
+.calltoaction .barra_search {
     order: 0;
     flex: 0 1 auto;
     align-self: auto;
 }
+.barra_search{
+    text-align: center;
+}
+
 .calltoaction {
     color: white;
 }
 
-section{
+section {
     height: 100vh;
 }
+.titulo-sectiones{
+    font-size: 2.5rem!important;
+    font-weight: 900;
+}
 
-#inicio{
+
+#inicio {
     /* background-color: greenyellow; */
     background-image: url(/assets/images/photo-1502322386937-39e80cbbb461.jpg);
     background-position: center center;
@@ -82,16 +114,45 @@ section{
     background-attachment: fixed;
     background-size: cover;
 }
-#hoteles{
-    background-color: white
-}
-.hoteles--card{
-    text-align: center;
-}
-.titulo-hoteles-card{
+
+#hoteles {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 0 20px 30px;
     
 }
-#vuelos{
+
+.hoteles--card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid #D1D1D1;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    padding: 0 0 30px;
+    margin-bottom: 50px;
+}
+
+
+.boton-hoteles-card {
+    float: left;
+}
+
+.titulo-hoteles-card {
+    margin: 40px 0 30px;
+}
+.cuerpo-card{
+    padding: 0 30px;
+}
+
+
+#vuelos {
     /* background-color: yellow; */
     background-image: url(/assets/images/photo-1558285549-827043e3d8a8.jpg);
     background-position: center center;
@@ -99,7 +160,8 @@ section{
     background-attachment: fixed;
     background-size: cover;
 }
-#contacto{
+
+#contacto {
     /* background-color: gray; */
     background-image: url(/assets/images/photo-1557180295-76eee20ae8aa.jpg);
     background-position: center center;
