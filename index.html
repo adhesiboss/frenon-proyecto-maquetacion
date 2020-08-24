@@ -5,28 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Maquetación</title>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
     <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
     <link href="./assets/fontawesome/css/solid.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
 </head>
 <body>
     
     <section id="inicio">
         <header>
-            <h1>
-                <a href="#">
-                    <i class="fab fa-pushed"></i>Travel
-                </a>
-            </h1>
+            
             <nav>
-                <ul>
+                <div class="logo">
+                    <a href="#">
+                        <i class="fab fa-pushed"></i>Travel
+                    </a>
+                </div >
+                <ul class="secciones">
                     <li><a href="#inicio" title="Inicio">Inicio</a></li>
                     <li><a href="#hoteles" title="Hoteles">Hoteles</a></li>
                     <li><a href="#vuelos" title="Vuelos">Vuelos</a></li>
                     <li><a href="#contacto" class="btn" title="Registro">Contacto</a></li>
                 </ul>
             </nav>
+
+            
         </header>
+        <div class="hero-section">
+            <div class="calltoaction">
+                <h1>A donde quieres viajar?</h1>
+                <div class="barra_search">
+                    <i class="fab fa-pushed"></i>
+                    <input type="text">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="hoteles"><h2>Hoteles</h2></section>
     <section id="vuelos"><h2>Vuelos</h2></section>
