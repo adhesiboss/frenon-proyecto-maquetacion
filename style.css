@@ -8,7 +8,7 @@ html {
     font-size: 12px;
 }
 body{
-    background-color: #505050; 
+    background-color: #505050;
 }
 
 section{
@@ -16,7 +16,9 @@ section{
 }
 
 #inicio{
-    background-color: greenyellow;
+    background: url("assets/img/inicio.jpg") center center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 #hoteles{
     background-color: royalblue;
@@ -26,4 +28,71 @@ section{
 }
 #contacto{
     background-color: gray;
+}
+
+a {
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+nav {
+    margin-top: 18px;
+}
+
+nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    margin-right: 25px;
+}
+
+.main-question {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-question > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-icon {
+    font-size: 40px;
+}
+
+.main-question button {
+    background: #EE3F59;
+    border: 2px solid black;
+    color: white;
+    font-weight: 600;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 15px;
+}
+.main-question input {
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 50px;
+    padding-left: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main-question-title {
+    font-size: 2.7rem;
+    font-weight: 900;
+    color: white;
+    padding: 15px 0;
 }
