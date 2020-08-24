@@ -17,6 +17,7 @@ header {
     width: 100%;
     height: auto;
     padding: 20px;
+    
 }
 
 h1,
@@ -35,6 +36,9 @@ p {
     text-align: justify;
     margin-bottom: 15px;
 }
+a{
+    color: white;
+}
 
 input,
 button {
@@ -52,6 +56,7 @@ img {
 .titulo {
     color: white;
     margin-bottom: 10px !important;
+    font-size: 2rem!important;
 }
 
 nav {
@@ -75,8 +80,26 @@ nav {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+}
+.secciones li{
+   margin-left: 8px;
+}
+.fa-pushed{
+    font-size: 25px;
+}
+.secciones li:last-child{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.secciones li:last-child:hover{
+    
+    background-color: tomato;
 }
 
 .hero-section {
@@ -98,10 +121,18 @@ nav {
 
 .barra_search {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    padding: 20px 10px;
 }
 
 .calltoaction {
     color: white;
+    
 }
 
 section {
