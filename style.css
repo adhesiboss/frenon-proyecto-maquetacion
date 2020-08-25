@@ -311,6 +311,7 @@ input.form-item {
 .menu > i {
     padding: 0 9px;
     font-size: 16px;
+    color: white;
 }
 
 /* Media Queries */
