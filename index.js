@@ -1,7 +1,8 @@
 const menu = document.getElementById('menu');
 const nav = document.getElementById('nav');
-
 const navLinks = document.querySelectorAll('#nav a');
+const body = document.getElementById('body');
+
 
 let menuIsVisible = false;
 
@@ -15,7 +16,9 @@ function handleMenuClick() {
 }
 
 function handleMenuItemClick() {
-  nav.style.display= "none";
+  if (body.clientWidth <= 720) {
+    nav.style.display= "none";
+  }
 }
 
 menu.addEventListener("click", handleMenuClick);
