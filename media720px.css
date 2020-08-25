@@ -2,20 +2,38 @@
     .boton-volver {
         left: 700px;
         top: 960px;
-        
-       
+
+
     }
+
     .calltoaction {
         width: 70%;
-    
+
     }
+
     .barra_search {
-        
+
         justify-content: space-between;
-        
+
     }
+
     .titulo {
-        
+
         font-size: 37px !important;
     }
-  }
+    #hoteles{
+        padding: 0 5px 30px;
+    }
+
+    .hoteles--cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: stretch;
+    }
+    .hoteles--card {
+       margin: 0 3px 0;
+    }
+}
