@@ -305,6 +305,10 @@ input.form-item {
 
 /* Media Queries */
 
+/* Solo consideré estas 2 media queries para este ejercicio */
+/* y se me olvidó hacer mobile first */
+/* No utilicé float */
+
 @media only screen
     and (min-width: 721px)
 {
