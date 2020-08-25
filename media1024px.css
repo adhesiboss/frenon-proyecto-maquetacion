@@ -7,6 +7,7 @@
     .fa-pushed {
         font-size: 3rem;
     }
+
     .secciones li {
         margin-left: 20px;
     }
@@ -23,8 +24,8 @@
     }
 
     .boton-volver {
-        left: 1200px;
-        top: 740px;
+        bottom: 20px;
+        right: 20px;
 
 
     }
