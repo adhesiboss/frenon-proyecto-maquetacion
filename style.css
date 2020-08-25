@@ -1,29 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing :border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    font-family: 'Lato', Tahoma, Sans-Serif;
-    font-size: 12px;
+  font-family: "Lato", Tahoma, Sans-Serif;
+  font-size: 12px;
 }
-body{
-    background-color: #505050; 
-}
-
-section{
-    height: 100vh;
+body {
+  background-color: #505050;
 }
 
-#inicio{
-    background-color: greenyellow;
+section {
+  min-height: 100vh;
+  height: fit-content;
 }
-#hoteles{
-    background-color: royalblue;
+
+#inicio {
+  background-color: greenyellow;
 }
-#vuelos{
-    background-color: yellow;
+#hoteles {
+  background-color: royalblue;
 }
-#contacto{
-    background-color: gray;
+#vuelos {
+  background-color: yellow;
+  background-image: url(https://images.unsplash.com/photo-1558285549-827043e3d8a8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+#contacto {
+  background-color: gray;
+  background-image: url(https://images.unsplash.com/photo-1557180295-76eee20ae8aa?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* aca empieza lo mio*/
