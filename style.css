@@ -12,7 +12,7 @@ body{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #inicio{
@@ -22,12 +22,6 @@ section{
 }
 #hoteles{
     background-color: royalblue;
-}
-#vuelos{
-    background-color: yellow;
-}
-#contacto{
-    background-color: gray;
 }
 
 a {
@@ -53,6 +47,11 @@ nav > ul {
 }
 nav > ul > li {
     margin-right: 25px;
+}
+
+.container-lg {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .main-question {
@@ -105,12 +104,12 @@ nav > ul > li {
     text-align: center;
 }
 
-.hoteles-container {
+.cards-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.hoteles-container article {
+.cards-container article {
     width: 300px;
     margin: 10px;
     background: white;
@@ -121,18 +120,25 @@ nav > ul > li {
     object-fit: cover;
 }
 
-.hotel-name {
+.card-name {
     font-size: 2rem;
+}
+
+.t-center {
     text-align: center;
 }
 
-.hotel-description {
+.t-left {
+    text-align: left;
+}
+
+.card-description {
     font-size: 1.4rem;
     color: #3f3e3e;
     padding: 15px 0;
 }
 
-.hotel-button {
+.card-button {
     background: #f5c6cd;
     border: none;
     padding: 10px;
@@ -147,4 +153,34 @@ nav > ul > li {
 
 .card-body {
     padding: 30px;
+}
+
+/* Vuelos */
+
+#vuelos {
+    background: url("assets/img/vuelos.jpg") center center / cover no-repeat;
+    padding-bottom: 70px;
+}
+
+#vuelos h2 {
+    font-size: 4rem;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.border-r {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.border-top-r {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
 }
