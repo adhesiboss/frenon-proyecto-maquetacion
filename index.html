@@ -21,14 +21,14 @@
             </h1>
             <div class="menu-container">
                 <div class="menu">
-                    menu
+                    <i class="fas fa-bars" id="menu"></i>
                 </div>
-                <nav>
+                <nav id="nav">
                     <ul>
                         <li><a href="#inicio" title="Inicio">Inicio</a></li>
                         <li><a href="#hoteles" title="Hoteles">Hoteles</a></li>
                         <li><a href="#vuelos" title="Vuelos">Vuelos</a></li>
-                        <li><a href="#contacto" class="btn" title="Registro">Contacto</a></li>
+                        <li><a href="#contacto" class="btn-secondary" title="Registro">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -52,7 +52,7 @@
                     <img class="hotel-image" src="assets/img/hoteles/hotel-1.jpg" alt="Hotel Schmo">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-center">Hotel</p>
+                    <p class="card-name t-center">Hotel 1</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
@@ -64,7 +64,7 @@
                     <img class="hotel-image" src="assets/img/hoteles/hotel-2.jpg" alt="Hotel The Diamond">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-center">Hotel</p>
+                    <p class="card-name t-center">Hotel 2</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
@@ -76,7 +76,7 @@
                     <img class="hotel-image" src="assets/img/hoteles/hotel-3.jpg" alt="Hotel Cucui">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-center">Hotel</p>
+                    <p class="card-name t-center">Hotel 3</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
@@ -88,7 +88,7 @@
                     <img class="hotel-image" src="assets/img/hoteles/hotel-4.jpg" alt="Hotel Stock">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-center">Hotel</p>
+                    <p class="card-name t-center">Hotel 4</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
@@ -100,74 +100,72 @@
     <section id="vuelos">
         <h2>Vuelos</h2>
         <div class="cards-container container-lg vuelos">
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/canada.jpg" alt="Paisaje de Canada">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">Canada</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
                     <button class="card-button" type="button">Más información</button>
                 </div>
             </article>
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/brazil.jpg" alt="Paisaje de Brazil">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">Brasil</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
                     <button class="card-button" type="button">Más información</button>
                 </div>
             </article>
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/new-zeland.jpg" alt="Paisaje de New Zeland">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">Nueva Zelanda</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
                     <button class="card-button" type="button">Más información</button>
                 </div>
             </article>
-        <!-- </div>
-        <div class="cards-container container-lg space-evenly"> -->
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/yosemite.jpg" alt="Paisaje de Yosemite(USA)">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">USA</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
                     <button class="card-button" type="button">Más información</button>
                 </div>
             </article>
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/argentina.jpg" alt="Paisaje de Argentina">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">Argentina</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
                     <button class="card-button" type="button">Más información</button>
                 </div>
             </article>
-            <article class="border-r vuelos-card">
+            <article class="border-r vuelos-card shadow">
                 <figure>
                     <img class="hotel-image border-top-r" src="assets/img/ubicaciones/torres-del-paine.jpg" alt="Paisaje de Torres del Paine(Chile)">
                 </figure>
                 <div class="card-body">
-                    <p class="card-name t-left">Hotel</p>
+                    <p class="card-name t-left">Chile</p>
                     <p class="card-description">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur minima natus, quam aliquid eaque sed perferendis molestiae. At tempore accusamus voluptas, omnis adipisci enim, neque ratione iure officiis ad quae.
                     </p>
@@ -196,5 +194,6 @@
             </form>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>

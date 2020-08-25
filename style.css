@@ -31,6 +31,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 header {
     display: flex;
     width: 100%;
@@ -38,9 +39,6 @@ header {
     margin: 0 auto;
     justify-content: space-between;
     padding: 30px 20px;
-}
-nav {
-    margin-top: 18px;
 }
 
 nav > ul {
@@ -85,6 +83,17 @@ nav > ul > li {
 
 .brand-icon {
     font-size: 40px;
+}
+
+.btn-secondary {
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .btn-primary {
@@ -281,21 +290,27 @@ input.form-item {
     display: flex;
     padding-top: 20px;
 }
+.menu {
+    display: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.menu > i {
+    padding: 0 9px;
+    font-size: 16px;
+}
 
 /* Media Queries */
 
-@media (min-width: 769px){
-    .menu{
-        display: none;
-    }
-    nav {
-        margin-top: 0;
-    }
-}
-
 @media only screen
-    and (max-width: 768px)
+    and (max-width: 720px)
 {
+    .menu {
+        display: block;
+    }
     a {
         font-size: 1.6rem;
     }
@@ -317,6 +332,8 @@ input.form-item {
         position: absolute;
         width: 150px;
         left: -120px;
+        margin-top: 18px;
+        display: none;
     }
 
     nav > ul > li {
@@ -331,5 +348,10 @@ input.form-item {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     content: " ";
+    }
+
+    .btn-secondary {
+        border:none;
+        padding: 0;
     }
 }
