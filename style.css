@@ -71,7 +71,7 @@ nav > ul > li {
     font-size: 40px;
 }
 
-.main-question button {
+.btn-primary {
     background: #EE3F59;
     border: 2px solid black;
     color: white;
@@ -183,4 +183,49 @@ nav > ul > li {
 
 .space-evenly {
     justify-content: space-evenly;
+}
+
+/* Contact */
+#contacto{
+    background: url("assets/img/contact-us.jpg") center center / cover no-repeat;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contacto h2 {
+    font-size: 4rem;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+}
+
+.main-form {
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.form-item {
+    display: block;
+    font-size: 1.6rem;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+input.form-item {
+    padding-left: 10px;
+}
+
+.main-form .btn-primary {
+    margin: 15px 0;
+}
+
+.h-auto {
+    height: auto;
 }
