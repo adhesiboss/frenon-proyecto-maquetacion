@@ -304,3 +304,30 @@ section {
     height: auto;
     padding: 0 20px 30px;
 }
+.contenedor-form{
+    background-color: white;
+    padding: 35px 20px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+}
+.contenedor-form label {
+    margin: 0 0 26px;
+    height: auto;
+}
+.contenedor-form input{
+    width: 100%;
+    padding: 28px;
+    border: 1px solid #959595;
+    margin: 0 0 26px;
+}
+.boton-form{
+    background-color: #F12F4F;
+    color: white;
+    width: 100%;
+    height: 70px;
+}
