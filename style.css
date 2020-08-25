@@ -295,7 +295,10 @@ input.form-item {
 
 @media only screen
     and (max-width: 768px)
-    {
+{
+    a {
+        font-size: 1.6rem;
+    }
     nav > ul {
         flex-direction: column;
     }
