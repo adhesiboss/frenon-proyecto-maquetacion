@@ -227,3 +227,36 @@ form > button {
   color: white;
   font-size: 5rem;
 }
+
+/*media queries*/
+@media (min-width: 320px) {
+  .card {
+    width: 40%;
+  }
+  #inicio > header > h1 {
+    width: 20vw;
+    text-align: center;
+  }
+  #inicio > header > nav > ul {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 720px) {
+  .card {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1240px) {
+  .card {
+    width: 23%;
+  }
+  .cards > .card {
+    width: 23%;
+    box-sizing: border-box;
+    margin: 2%;
+  }
+}
