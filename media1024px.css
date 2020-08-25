@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1024px) {
+    header {
+        padding: 30px 137px;
+        font-size: 18px;
+    }
+
+    .fa-pushed {
+        font-size: 3rem;
+    }
+    .secciones li {
+        margin-left: 20px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height: 50vw;
+
+    }
+
+    .boton-volver {
+        left: 1200px;
+        top: 740px;
+
+
+    }
+
+    .calltoaction {
+        width: 40%;
+    }
+
+    #contacto {
+        padding: 0 300px 15px;
+    }
+}
