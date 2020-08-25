@@ -22,6 +22,7 @@ section{
 }
 #hoteles{
     background-color: white;
+    padding-bottom: 70px;
 }
 
 a {
@@ -118,8 +119,10 @@ nav > ul > li {
 }
 .cards-container article {
     width: 300px;
+    min-width: 300px;
     margin: 10px;
     background: white;
+    flex-basis: 25%;
 }
 
 .shadow {
