@@ -60,4 +60,7 @@
         width: 100%;
         height: auto;
     }
+    #contacto {
+        padding: 0 150px 15px;
+    }
 }
