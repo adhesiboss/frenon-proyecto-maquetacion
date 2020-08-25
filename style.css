@@ -62,7 +62,22 @@ nav > ul > li {
     justify-content: center;
     align-items: center;
 }
-.main-question > div {
+
+.search-input {
+    border: none;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.search-i {
+    padding: 0 15px;
+}
+
+.search {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +107,7 @@ nav > ul > li {
 .main-question input {
     box-sizing: border-box;
     height: 50px;
-    padding-left: 50px;
+    padding-left: 10px;
     font-size: 1.4rem;
     font-weight: 500;
 }
@@ -226,7 +241,8 @@ nav > ul > li {
 
 #contacto h2 {
     font-size: 4rem;
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 60px;
     text-align: center;
     color: white;
 }
