@@ -117,7 +117,13 @@ nav > ul > li {
     justify-content: center;
     flex-wrap: wrap;
 }
-.cards-container article {
+.hotels-card {
+    width: 300px;
+    min-width: 300px;
+    margin: 10px;
+    background: white;
+}
+.vuelos-card {
     width: 300px;
     min-width: 300px;
     margin: 10px;
